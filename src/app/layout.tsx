@@ -4,8 +4,8 @@ import dynamic from "next/dynamic";
 import SiderLoader from "@/components/layout/Sider/loading";
 import { ToastContainer } from "react-toastify";
 export const metadata: Metadata = {
-  title: "Wonkaa",
-  description: "Wonkaa",
+  title: "Sassy",
+  description: "Sassy",
 };
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
