@@ -190,7 +190,7 @@ const NFT = () => {
                 </div>
               </div>
               <button
-                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#fbff2c] mr-[10px] ${
+                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#fff12a] mr-[10px] ${
                   !isLoading && "hover:bg-[#53FAFB]"
                 } hover:text-black`}
                 onClick={handleMint}

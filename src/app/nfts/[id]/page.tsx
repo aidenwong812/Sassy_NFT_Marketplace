@@ -150,7 +150,7 @@ const NFT = ({ params: { id } }) => {
                 </div>
               </div>
               <button
-                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#fbff2c] mr-[10px] ${!nftListModal && "hover:bg-[#53FAFB] hover:text-black"
+                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#fff12a] mr-[10px] ${!nftListModal && "hover:bg-[#53FAFB] hover:text-black"
                   } `}
                 onClick={() => {
                   active ? setNftUnListModal(!nftUnListModal) : setNftListModal(!nftListModal);

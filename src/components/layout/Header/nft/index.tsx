@@ -74,7 +74,7 @@ const NFTHeader = () => {
               />
               {siderWidth > 1600 ? (
                 <>
-                  <div className="ml-[7px] mr-[7px] text-[#e0d6d2] ">
+                  <div className="ml-[7px] mr-[7px] text-[#fff12a] ">
                     {connStatus ? formatAddress(walletID) : "Connect Wallet"}
                   </div>
                   {connStatus && (

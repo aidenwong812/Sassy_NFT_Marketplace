@@ -18,7 +18,7 @@ const _renderLinkItem = (props: any) => {
              ? "bg-[#e0d6d2] text-[#64331d] border-none px-5"
              : props._url !== "/home" && props.pathname.includes(props._url)
              ? "bg-[#e0d6d2] text-[#64331d] border-none px-5"
-             : "text-[#e0d6d2] px-5"
+             : "text-[#fff12a] px-5"
          }`}
     >
       <div className="text-lg">{props._name}</div>

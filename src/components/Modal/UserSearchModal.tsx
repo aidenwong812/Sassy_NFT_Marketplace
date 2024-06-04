@@ -21,7 +21,7 @@ const searchResultItem = () => {
           </p>
         </div>
       </div>
-      <button className="w-[75px] h-[35px] bg-[#53FAFB] bg-opacity-10 rounded-full text-[#fbff2c] text-[12px]">
+      <button className="w-[75px] h-[35px] bg-[#53FAFB] bg-opacity-10 rounded-full text-[#fff12a] text-[12px]">
         Leave
       </button>
     </div>
@@ -85,7 +85,7 @@ const UserSearchModal = () => {
             </div>
             <div className="w-full inline-flex justify-between mt-[20px] items-center">
               <p>Results</p>
-              <p className="text-[13px] text-[#fbff2c]">Clear All</p>
+              <p className="text-[13px] text-[#fff12a]">Clear All</p>
             </div>
             <p className="text-[#656565] text-[13px] mt-[5px]">
               105 Items Found

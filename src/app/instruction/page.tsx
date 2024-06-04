@@ -15,7 +15,7 @@ export default function Instruction() {
         <div className="w-[70%] pb-[30px] mx-auto overflow-auto h-full">
           <div className="flex">
             <div className="w-full">
-              <div className="w-full text-xl text-center text-[#fbff2c] mb-[50px]">
+              <div className="w-full text-xl text-center text-white mb-[50px]">
                 If you get such a alert message "Please Install Solana Wallet",
                 you need to set up your wallet.
               </div>
@@ -45,7 +45,7 @@ export default function Instruction() {
                           href="https://phantom.app/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#fbff2c] hover:text-[#fbff2c] hover:underline"
+                          className="text-white hover:text-[#fff12a] hover:underline"
                         >
                           Phantom wallet
                         </Link>{" "}
@@ -82,7 +82,7 @@ export default function Instruction() {
                       <Link
                         href="https://phantom.app/"
                         target="_blank"
-                        className="text-[#fbff2c] hover:text-[#fbff2c] hover:underline"
+                        className="text-white hover:text-[#fff12a] hover:underline"
                       >
                         {" "}
                         https://phantom.app
@@ -311,7 +311,7 @@ export default function Instruction() {
                     <div className="text-center my-5 mt-[70px]">
                       <Link
                         href="/nfts"
-                        className="text-[#fbff2c] text-xl mb-5 hover:underline"
+                        className="text-white text-xl mb-5 hover:underline"
                       >
                         Welcome to SASSY THE MF SASQUATCH!
                       </Link>
