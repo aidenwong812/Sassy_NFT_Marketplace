@@ -61,9 +61,7 @@ const NFTHeader = () => {
         <ul className="text-white text-md">
           <div className="w-full inline-flex items-center justify-center">
             <button
-              className={`${
-                siderWidth > 250 ? "w-[200px]" : "px-[7px]"
-              } h-[40px] rounded-full border border-[#535353] inline-flex items-center justify-center font-ttfirs text-[12px] hover:opacity-70 transition-all duration-100`}
+              className={`px-5 h-[40px] rounded-full border border-[#535353] inline-flex items-center justify-center font-ttfirs text-[12px] hover:opacity-70 transition-all duration-100`}
               onClick={handleClick}
             >
               <Image
@@ -74,7 +72,7 @@ const NFTHeader = () => {
                 priority={true}
                 className="w-[25px] h-auto"
               />
-              {siderWidth > 250 ? (
+              {siderWidth > 1600 ? (
                 <>
                   <div className="ml-[7px] mr-[7px] text-[#e0d6d2] ">
                     {connStatus ? formatAddress(walletID) : "Connect Wallet"}
