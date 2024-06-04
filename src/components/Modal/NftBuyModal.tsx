@@ -82,7 +82,7 @@ const NftBuyModal = () => {
               />
             </button>
             <div className="w-full flex justify-center mt-[180px]">
-              <div className="w-[150px] h-[40px] rounded-full border-[#53FAFB] border-[1px] flex items-center justify-center text-[#53FAFB] text-[14px]">
+              <div className="w-[150px] h-[40px] rounded-full border-[#53FAFB] border-[1px] flex items-center justify-center text-[#fbff2c] text-[14px]">
                 <Image
                   src="/icon/sol.svg"
                   width={0}

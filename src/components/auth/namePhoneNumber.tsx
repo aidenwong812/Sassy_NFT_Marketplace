@@ -109,7 +109,7 @@ const NamePhoneNumber = (props: any) => {
           height={20}
           className="mr-[10px] mt-[-1px]"
         />
-        Back to <div className="text-[#53FAFB] ml-[5px]">Login</div>
+        Back to <div className="text-[#fbff2c] ml-[5px]">Login</div>
       </button>
       {!vaildEmail && (
         <div className="text-[#FF0000] w-full justify-center">

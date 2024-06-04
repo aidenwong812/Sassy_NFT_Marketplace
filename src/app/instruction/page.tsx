@@ -15,7 +15,7 @@ export default function Instruction() {
         <div className="w-[70%] pb-[30px] mx-auto overflow-auto h-full">
           <div className="flex">
             <div className="w-full">
-              <div className="w-full text-xl text-[#53FAFB] mb-[50px]">
+              <div className="w-full text-xl text-center text-[#fbff2c] mb-[50px]">
                 If you get such a alert message "Please Install Solana Wallet",
                 you need to set up your wallet.
               </div>
@@ -45,7 +45,7 @@ export default function Instruction() {
                           href="https://phantom.app/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#53FAFB] hover:text-[#53FAFB] hover:underline"
+                          className="text-[#fbff2c] hover:text-[#fbff2c] hover:underline"
                         >
                           Phantom wallet
                         </Link>{" "}
@@ -82,7 +82,7 @@ export default function Instruction() {
                       <Link
                         href="https://phantom.app/"
                         target="_blank"
-                        className="text-[#53FAFB] hover:text-[#53FAFB] hover:underline"
+                        className="text-[#fbff2c] hover:text-[#fbff2c] hover:underline"
                       >
                         {" "}
                         https://phantom.app
@@ -311,9 +311,9 @@ export default function Instruction() {
                     <div className="text-center my-5 mt-[70px]">
                       <Link
                         href="/nfts"
-                        className="text-[#53FAFB] text-xl mb-5 hover:underline"
+                        className="text-[#fbff2c] text-xl mb-5 hover:underline"
                       >
-                        Welcome to SOFT COQ NFT MARKETPLACE!
+                        Welcome to SASSY THE MF SASQUATCH!
                       </Link>
                       <br />
                       Your Phantom wallet is ready to use. You can get started
@@ -330,33 +330,6 @@ export default function Instruction() {
                           className="mx-auto"
                         />
                       </b>
-                    </div>
-                    <div className="text-center">
-                      <p>
-                        <strong>
-                          If you are having trouble, we can help you in the{" "}
-                          <Link
-                            href="https://t.me/softcoqinu1"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#53FAFB] hover:underline"
-                          >
-                            telegram channel
-                          </Link>
-                        </strong>
-                        <strong>&nbsp;</strong>
-                      </p>
-                      <div>
-                        <strong>What is telegram?&nbsp;</strong>Telegram is a
-                        free voice, video, and text chat app that's used by tens
-                        of millions of people ages 13+ to&nbsp;
-                        <b>
-                          talk and hang out with their communities and friends
-                        </b>
-                        . People use Telegram daily to talk about many things,
-                        ranging from art projects and family trips to homework
-                        and mental health support.
-                      </div>
                     </div>
                     <div className="text-center">
                       <strong></strong>

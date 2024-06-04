@@ -8,7 +8,7 @@ const AccountHeader = () => {
     <>
       <div className="w-full justify-between inline-flex items-end mt-[40px]">
         <button
-          className="text-[#53FAFB]"
+          className="text-[#fbff2c]"
           onClick={() => {
             router.back();
           }}
