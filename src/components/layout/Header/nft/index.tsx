@@ -47,7 +47,7 @@ const NFTHeader = () => {
         {siderWidth > 500 && (
           <Image
             src="/home/title.png"
-            width={500}
+            width={600}
             height={0}
             className="ml-2 mt-3"
             alt="title"
