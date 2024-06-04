@@ -40,7 +40,7 @@ const NFTHeader = () => {
           width={50}
           height={0}
           alt=""
-          className="rounded-full"
+          className="rounded-full border-[#e0d6d2] border-2"
           priority={true}
           onLoad={() => setLoading(false)}
         />
@@ -76,7 +76,7 @@ const NFTHeader = () => {
               />
               {siderWidth > 250 ? (
                 <>
-                  <div className="ml-[7px] mr-[7px]">
+                  <div className="ml-[7px] mr-[7px] text-[#e0d6d2] ">
                     {connStatus ? formatAddress(walletID) : "Connect Wallet"}
                   </div>
                   {connStatus && (
