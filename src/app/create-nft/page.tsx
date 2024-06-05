@@ -30,7 +30,7 @@ const NFT = () => {
 
   useEffect(() => {
     const admins = [
-      "7bgNUCdFZX729Vmvz9S5JwhrfQE52kDv6QyeBpbr5Yw5",
+      "GZRS85Bi4f5VanAa9QSFsUbV4wpJxeGmB6d6fo8CjujD",
       "4dJ6QHdisXwcFVjADr8dS7BqHfDUfuzc6pzDoTEgGDQi",
       "FhvzCMoiTq8JHZuKwiPsGPgVtQjR8Z4KJ71r55h2tgqC",
       "CBDspbBz3Xy6MYyURfGVzqMg7rS8EsQzBy3hf7UbR7uv",
