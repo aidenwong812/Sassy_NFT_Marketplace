@@ -177,7 +177,7 @@ const SettingSider = () => {
             />
           </div>
           <button
-            className={`text-[12px] text-[#fff12a] ${
+            className={`text-[12px] text-[#ffffff] ${
               siderWidth < 345 ? "hidden" : "block"
             }`}
             onClick={() => {

@@ -143,7 +143,7 @@ const NFT = ({ params: { id } }) => {
                 </div>
               </div>
               <button
-                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#fff12a] mr-[10px] ${
+                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#ffffff] mr-[10px] ${
                   !nftTransferModal && "hover:bg-[#53FAFB] hover:text-black"
                 } `}
                 onClick={() => {

@@ -6,7 +6,7 @@ const LanguagesHeader = () => {
   return (
     <>
       <div className="w-full justify-between inline-flex items-end mt-[40px]">
-        <button className="text-[#fff12a]" onClick={() => {router.back()}}>Back</button>
+        <button className="text-[#ffffff]" onClick={() => {router.back()}}>Back</button>
         <p className="text-[22px]">Change Language</p>
         <p></p>
       </div>

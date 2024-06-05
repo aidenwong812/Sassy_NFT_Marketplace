@@ -101,7 +101,7 @@ const NftListModal = () => {
                 placeholder="Price"
                 onChange={(e) => setPrice(Number(e.target.value))}
               />
-              <p className="absolute top-[8px] right-[90px] text-[#fff12a]">
+              <p className="absolute top-[8px] right-[90px] text-[#ffffff]">
                 SOL
               </p>
             </div>

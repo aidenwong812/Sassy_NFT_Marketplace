@@ -45,7 +45,7 @@ export default function Instruction() {
                           href="https://phantom.app/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-white hover:text-[#fff12a] hover:underline"
+                          className="text-white hover:text-[#ffffff] hover:underline"
                         >
                           Phantom wallet
                         </Link>{" "}
@@ -82,7 +82,7 @@ export default function Instruction() {
                       <Link
                         href="https://phantom.app/"
                         target="_blank"
-                        className="text-white hover:text-[#fff12a] hover:underline"
+                        className="text-white hover:text-[#ffffff] hover:underline"
                       >
                         {" "}
                         https://phantom.app
