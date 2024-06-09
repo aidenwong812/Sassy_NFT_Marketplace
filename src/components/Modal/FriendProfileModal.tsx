@@ -15,7 +15,7 @@ const FriendProfileModal = () => {
           friendProfileModal && pathName.includes("/community/")
             ? "w-[400px]"
             : "w-0"
-        } flex flex-none h-full bg-[#171717] transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
+        } flex flex-none h-full text-white bg-[#171717] transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
       >
         <div className="w-[400px] h-full bg-[#171717] px-[26px] pt-[50px] pb-[50px]">
           <div className="w-full h-full relative overflow-auto">

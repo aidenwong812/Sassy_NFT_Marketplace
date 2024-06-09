@@ -140,8 +140,8 @@ const NFT = ({ params: { id } }) => {
                 </div>
               </div>
               <button
-                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-[#ffffff] mr-[10px] ${
-                  !nftBuyModal && "hover:bg-[#53FAFB] hover:text-black"
+                className={`w-[130px] h-[45px] rounded-full border border-[#53FAFB] text-black mr-[10px] ${
+                  !nftBuyModal && "hover:bg-[#53FAFB] "
                 } `}
                 onClick={() => {
                   setNftBuyModal(!nftBuyModal);

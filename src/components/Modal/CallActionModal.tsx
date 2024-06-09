@@ -6,7 +6,7 @@ import Image from "next/image";
 const CallingModal = (props: any) => {
   return (
     <>
-      <div className="w-full px-[15px] py-[10px] bg-[#202020] inline-flex items-center justify-between rounded-[12px] mb-[10px]">
+      <div className="w-full px-[15px] py-[10px] text-white bg-[#202020] inline-flex items-center justify-between rounded-[12px] mb-[10px]">
         <div className="inline-flex items-center">
           <Image
             src={props.item.avatar}

@@ -13,7 +13,7 @@ const NftBuyConfirmModal = (props: any) => {
           nftBuyConfirmModal && pathName.includes("/nfts/")
             ? "w-[400px]"
             : "w-0"
-        } flex flex-none h-full bg-[#171717] transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
+        } flex flex-none h-full bg-[#171717] text-white transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
       >
         <div className="w-[400px] h-full relative overflow-auto px-[30px] pb-[50px]">
           <div className="w-[340px] h-full overflow-auto">

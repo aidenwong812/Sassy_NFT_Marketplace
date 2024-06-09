@@ -34,7 +34,7 @@ const CommunityUserModal = () => {
           communityMemberProfileModal && pathname === "/communitySetting"
             ? "w-[400px]"
             : "w-0"
-        } flex flex-none h-full bg-[#171717] transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
+        } flex flex-none h-full text-white bg-[#171717] transition-all duration-500 overflow-auto modalWidth:static absolute right-0 z-20 prevent-select`}
       >
         <div className="w-[400px] h-full bg-[#171717] flex flex-none z-10 px-[50px] overflow-auto">
           <div className="w-full h-full pb-[60px] flex flex-col">

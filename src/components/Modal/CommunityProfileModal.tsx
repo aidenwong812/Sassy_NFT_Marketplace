@@ -13,7 +13,7 @@ const CommunityProfileModal = () => {
       <div
         className={`${
           communityProfileModal && pathName.includes("/community") ? "w-[400px]" : "w-0"
-        } flex flex-none h-full bg-[#171717] transition-all duration-500 modalWidth:static absolute right-0 z-20 prevent-select`}
+        } flex flex-none h-full text-white bg-[#171717] transition-all duration-500 modalWidth:static absolute right-0 z-20 prevent-select`}
       >
         <div className="w-[400px] h-full bg-[#171717] px-[26px] pt-[50px] pb-[50px] flex-col flex">
           <div className="w-full inline-flex justify-between items-center">

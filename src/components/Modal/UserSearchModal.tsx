@@ -5,7 +5,7 @@ import { useSettingModal } from "@/providers/SettingModalProvider";
 import Image from "next/image";
 const searchResultItem = () => {
   return (
-    <div className="inline-flex justify-between items-center w-full mb-[10px]">
+    <div className="text-white inline-flex justify-between items-center w-full mb-[10px]">
       <div className="inline-flex items-center">
         <Image
           src="/avatar/2.svg"
