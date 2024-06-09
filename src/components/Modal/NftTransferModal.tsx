@@ -140,7 +140,7 @@ const NftTransferModal = () => {
                 className="w-[20px] h-auto absolute left-[36px] top-[12px]"
               />
               <input
-                className="py-[10px] w-[300px] outline-none bg-[#252525] px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px]"
+                className="py-[10px] w-[300px] outline-none bg-[#252525] text-white px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px]"
                 placeholder="Wallet Address"
                 onChange={(e) => setAddress(String(e.target.value))}
               />

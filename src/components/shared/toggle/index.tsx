@@ -7,7 +7,7 @@ const Toggle = (props: any) => {
         <input
           type="checkbox"
           value=""
-          className="sr-only peer"
+          className="sr-only peer text-white"
           checked={props.setting}
           onClick={props.hhandleSetting}
         />

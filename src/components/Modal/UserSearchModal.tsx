@@ -55,7 +55,7 @@ const UserSearchModal = () => {
           <div className="w-[340px] h-full relative">
             <div className="w-full relative mt-[40px]">
               <input
-                className="bg-[#252525] w-full text-[#B3B3B3] placeholder-[#4C4C4C] outline-none p-[14px] pl-[40px] rounded-[12px] text-[14px] h-[40px] align-bottom"
+                className="bg-[#252525] w-full text-white placeholder-[#4C4C4C] outline-none p-[14px] pl-[40px] rounded-[12px] text-[14px] h-[40px] align-bottom"
                 placeholder="Search Community"
                 onChange={(e) => setSearch(e.target.value)}
                 value={search}

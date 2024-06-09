@@ -12,7 +12,7 @@ const Security = () => {
             type="password"
             placeholder="Password"
             onChange={(e) => {setOldPassword(e.target.value)}}
-            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]"
+            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]  text-white"
           />
           <div className="w-full px-[20px] mt-[20px]">
             <p className="text-[#707070]">The terms and conditions contained in this Agreement shall constitute the entire agreement between ...</p>
@@ -22,13 +22,13 @@ const Security = () => {
             type="password"
             placeholder="New Password"
             onChange={(e) => {setNewPassword(e.target.value)}}
-            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]"
+            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]  text-white"
           />
           <input
             type="password"
             placeholder="New Password"
             onChange={(e) => {setNewPassword(e.target.value)}}
-            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]"
+            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[20px]  text-white"
           />
         </div>
       </div>

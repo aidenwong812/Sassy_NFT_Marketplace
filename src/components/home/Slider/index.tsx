@@ -19,7 +19,7 @@ const Slider = () => {
                 className="w-[15px] mt-[-2px] h-auto"
               />
               <input
-                className="ml-[12px] bg-transparent outline-none placeholder:text-[#4C4C4C] text-[14px] flex items-center w-[300px] max-w-[300px]"
+                className="ml-[12px] bg-transparent outline-none placeholder:text-[#4C4C4C] text-[14px] flex items-center w-[300px] max-w-[300px] text-white"
                 placeholder="Explore Communities, members or NFTs"
               />
             </div>

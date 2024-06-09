@@ -31,7 +31,7 @@ const NotificationHeader = () => {
               className="w-[14px] h-auto absolute left-[25px] top-[13px]"
             />
             <input
-              className="py-[10px] w-full outline-none bg-[#181818] px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px]"
+              className="py-[10px] w-full outline-none bg-[#181818] px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px] text-white"
               placeholder="Search Friends"
             />
           </div>

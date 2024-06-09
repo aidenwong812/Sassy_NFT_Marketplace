@@ -167,7 +167,7 @@ const SettingSider = () => {
               className="w-[13px] h-auto absolute left-[10px] top-[14px]"
             />
             <input
-              className={`w-[220px] bg-[#181818] border-none outline-none rounded-full py-[10px] pl-[30px] text-[14px] ${
+              className={`w-[220px] bg-[#181818] border-none outline-none rounded-full py-[10px] pl-[30px] text-[14px] text-white ${
                 siderWidth < 275 ? "hidden" : "block"
               }`}
               value={search}

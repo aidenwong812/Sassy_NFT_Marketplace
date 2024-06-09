@@ -76,7 +76,7 @@ const CommunityUserModal = () => {
                     onClick={handlePermissionStatus1}
                   />
                   <div
-                    className={`relative w-11 h-6 rounded-full ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
+                    className={`relative text-white w-11 h-6 rounded-full ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
                       permissionStatus1
                         ? "after:bg-[#50FFFF]"
                         : "after:bg-[#6D6D6D]"
@@ -90,7 +90,7 @@ const CommunityUserModal = () => {
                   <input
                     type="checkbox"
                     value=""
-                    className="sr-only peer"
+                    className="sr-only peer text-white"
                     onClick={handlePermissionStatus2}
                   />
                   <div
@@ -112,7 +112,7 @@ const CommunityUserModal = () => {
                     onClick={handlePermissionStatus3}
                   />
                   <div
-                    className={`relative w-11 h-6 rounded-full ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
+                    className={`relative w-11 h-6 rounded-full text-white ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
                       permissionStatus3
                         ? "after:bg-[#50FFFF]"
                         : "after:bg-[#6D6D6D]"
@@ -130,7 +130,7 @@ const CommunityUserModal = () => {
                     onClick={handlePermissionStatus4}
                   />
                   <div
-                    className={`relative w-11 h-6 rounded-full ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
+                    className={`relative w-11 h-6 rounded-full text-white ring-[#6D6D6D] ring-1 peer peer-focus:ring-1 dark:bg-transparent peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full after:content-[''] after:absolute after:top-0.5 after:start-[2px] ${
                       permissionStatus4
                         ? "after:bg-[#50FFFF]"
                         : "after:bg-[#6D6D6D]"
@@ -144,7 +144,7 @@ const CommunityUserModal = () => {
                   <input
                     type="checkbox"
                     value=""
-                    className="sr-only peer"
+                    className="sr-only peer text-white"
                     onClick={handlePermissionStatus5}
                   />
                   <div

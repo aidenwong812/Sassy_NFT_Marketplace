@@ -36,7 +36,7 @@ const MarketplaceHeader = () => {
             className="w-[14px] h-auto absolute left-[25px] top-[13px]"
           />
           <input
-            className="py-[10px] w-[250px] outline-none bg-[#252525] px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px]"
+            className="py-[10px] w-[250px] outline-none bg-[#252525] px-[50px] text-[14px] rounded-[12px] placeholder:text-[#4C4C4C] placeholder:text-[12px] text-white"
             placeholder="Search NFTs Collections"
           />
         </div>

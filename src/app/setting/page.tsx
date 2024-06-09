@@ -83,7 +83,7 @@ const Setting = () => {
                     <input
                       type="checkbox"
                       value=""
-                      className="sr-only peer"
+                      className="sr-only peer text-white"
                       onClick={handleSetting1}
                     />
                     <div
@@ -107,7 +107,7 @@ const Setting = () => {
                     <input
                       type="checkbox"
                       value=""
-                      className="sr-only peer"
+                      className="sr-only peer text-white"
                       onClick={handleSetting2}
                     />
                     <div

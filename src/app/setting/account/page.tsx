@@ -28,7 +28,7 @@ const AccountSetting = () => {
               onChange={(e) => {
                 setPassword1(e.target.value);
               }}
-              className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+              className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
             />
             <input
               type="password"
@@ -36,7 +36,7 @@ const AccountSetting = () => {
               onChange={(e) => {
                 setPassword2(e.target.value);
               }}
-              className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+              className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
             />
           </div>
           <p className="w-full mt-[10px] text-[#707070] text-[12px] mobile:px-[30px] px-[10px]">The terms and conditions contained in this Agreement shall constitute the entire agreement between ...</p>
@@ -46,7 +46,7 @@ const AccountSetting = () => {
             onChange={(e) => {
               setPassword2(e.target.value);
             }}
-            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[10px]"
+            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white mt-[10px]"
           />
           <p className="w-full mt-[30px] text-[15px] text-[#494949]">Username</p>
           <input
@@ -54,7 +54,7 @@ const AccountSetting = () => {
             onChange={(e) => {
               setPassword2(e.target.value);
             }}
-            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] mt-[10px]"
+            className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white mt-[10px]"
           />
         </div>
       </div>

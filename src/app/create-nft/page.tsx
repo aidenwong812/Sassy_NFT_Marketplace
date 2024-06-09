@@ -118,7 +118,7 @@ const NFT = () => {
                       name="file"
                       type="file"
                       accept="image/*"
-                      className="hidden"
+                      className="hidden text-white"
                       onChange={(e) => {
                         setFile(e.target.files[0]);
                         setPreview(URL.createObjectURL(e.target.files[0]));
@@ -146,28 +146,28 @@ const NFT = () => {
                     onChange={(e) => {
                       setName(e.target.value);
                     }}
-                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                   />
                   <input
                     placeholder="symbol"
                     onChange={(e) => {
                       setSymbol(e.target.value);
                     }}
-                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                   />
                   <textarea
                     placeholder="Enter Description"
                     onChange={(e) => {
                       setDescription(e.target.value);
                     }}
-                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                   />
                   <input
                     placeholder="Enter URL"
                     onChange={(e) => {
                       setUrl(e.target.value);
                     }}
-                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                    className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                   />
                   <div className="flex items-center gap-[20px]">
                     <input
@@ -176,7 +176,7 @@ const NFT = () => {
                       onChange={(e) => {
                         setMaxSupply(Number(e.target.value));
                       }}
-                      className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                      className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                     />
                     <input
                       placeholder="Enter Loyalty"
@@ -184,7 +184,7 @@ const NFT = () => {
                       onChange={(e) => {
                         setRoyalty(Number(e.target.value));
                       }}
-                      className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px]"
+                      className="bg-[#191919] border-none outline-none placeholder:text-[#707070] py-[15px] px-[25px] w-full rounded-[12px] text-[14px] text-white"
                     />
                   </div>
                 </div>
